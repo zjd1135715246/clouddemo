@@ -1,0 +1,7 @@
+server:
+  port: 8334
+spring:
+  dubbo:
+    application:
+      name: dubbo-customer
+      registry: zookeeper://81.70.199.67:2181
